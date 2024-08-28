@@ -1,0 +1,12 @@
+table, th, td {
+    border:1px solid blueviolet; border-collapse:collapse;
+
+}
+
+.text {
+    color:blue  (19, 59, 17);
+}
+
+#bot {
+    color:brown(67, 3, 3);
+}
