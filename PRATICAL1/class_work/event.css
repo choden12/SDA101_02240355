@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(214, 209, 209);
+
+}
+.event-list li:hover {
+    color:aqua
+    
+
+
+}
+h1{
+    color:rgb(49, 138, 162);
+    margin-left: 80px;
+}
