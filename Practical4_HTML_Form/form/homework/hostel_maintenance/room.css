@@ -3,15 +3,15 @@ body{
 
 }
 .event-list li:hover {
-    color:aqua
+    color:rgb(203, 23, 206)
 
 }
 h1{
-    color:rgb(188, 37, 143);
+    color:rgb(115, 25, 141);
     margin-left: 180px;
 }
 h2{
-    color:rgb(227, 25, 146);
+    color:rgba(99, 6, 85, 0.801);
     margin-left: 230px;
 }
 
