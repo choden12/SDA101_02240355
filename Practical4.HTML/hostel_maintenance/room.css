@@ -4,8 +4,6 @@ body{
 }
 .event-list li:hover {
     color:aqua
-    
-
 
 }
 h1{
@@ -15,4 +13,10 @@ h1{
 h2{
     color:rgb(227, 25, 146);
     margin-left: 230px;
+}
+
+.ok{
+    width: 600px;
+    height: 500px;
+    margin: auto;
 }
