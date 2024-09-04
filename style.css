@@ -6,3 +6,7 @@ table, th, td {
 .text {
     color:rgb(42, 165, 136);
 }
+body {
+    font-size: 14px;
+    background-color: burlywood;
+}
