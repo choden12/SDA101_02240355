@@ -1,0 +1,14 @@
+
+.ok{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border-radius: 25px;
+    border: 3px solid royalblue(0, 0 , 0);
+    margin:auto;
+    text-align: center;
+    background-image:url(photo/images.jpeg);
+}
+h1{
+    font: brown;
+}
