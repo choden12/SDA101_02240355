@@ -1,0 +1,6 @@
+@layer components {
+    .title { @apply text-6xl font-bold }
+    .subtitle { @apply text-4xl font-semibold }
+    .subsubtitle { @apply text-lg font-medium italic }
+  }
+  
