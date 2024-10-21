@@ -5,13 +5,11 @@ The main aim of this practical exercise is to create a personal profile using va
 
 ## What I have learned
 
-- Highlight successes and positive outcomes.
-- Mention any specific features or aspects that exceeded your expectations.
+
 
 ## Challenges Faced
 
-- Discuss difficulties you encountered.
-- How did you address or overcome these challenges?
+
 
 ## How i overcome challenges
 
