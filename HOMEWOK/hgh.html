@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Toggle Button</title>
+</head>
+<body>
+
+  <toggle-button></toggle-button>
+
+  <script>
+    class ToggleButton extends HTMLElement {
+      constructor() {
+        super();
+        this.state = localStorage.getItem('toggleState') === 'true';
+        this.innerHTML = `<button>${this.state ? 'ON' : 'OFF'}</button>`;
+        this.button = this.querySelector('button');
+        this.updateButton();
+
+        this.button.addEventListener('click', () => {
+          this.state = !this.state;
+          this.updateButton();
+          localStorage.setItem('toggleState', this.state);
+          this.dispatchEvent(new Event('toggle-changed'));
+        });
+      }
+
+      updateButton() {
+        this.button.textContent = this.state ? 'ON' : 'OFF';
+        this.button.style.backgroundColor = this.state ? 'green' : 'red';
+      }
+    }
+
+    customElements.define('toggle-button', ToggleButton);
+  </script>
+
+</body>
+</html>

@@ -2,6 +2,7 @@
 https://www.figma.com/design/qnaqgVKwkY8HN1qqnyBqtn/Untitled?node-id=0-1&m=dev&t=zkP7lM3kZAWlUfl5-1
 
 # Project overview
+The primary goal of this project is to facilitate food delivery, with a focus on fast food options, which are particularly popular in our country. The food delivery system has been tailored to meet the demand for quick, accessible meals that fit the preferences and lifestyle of our people.
 
 
 ## Table of Contents
@@ -16,6 +17,7 @@ https://www.figma.com/design/qnaqgVKwkY8HN1qqnyBqtn/Untitled?node-id=0-1&m=dev&t
 1. 
 
 ## Usage
+To access Figma, the user must go to https://figma.com and log in with their account credentials. After logging in, they should open the designated design file from the dashboard. Once the file is open, the user can run the input or interact with the design to generate the desired output or preview.
 
 
 ## Features
