@@ -1,7 +1,7 @@
 # Semister Assignment Grade
 
 # Project overview
-T This project demonstrates an HTML table layout for displaying semester assignment grades. The table includes columns for the module name, assignment exam name, maximum marks, marks obtained, percentage, and grade.
+This project demonstrates an HTML table layout for displaying semester assignment grades. The table includes columns for the module name, assignment exam name, maximum marks, marks obtained, percentage, and grade.
 
 ## Table of Contents
 

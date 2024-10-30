@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Card Component</title>
+  </head>
+  <body>
+    <!-- Using the custom card component -->
+    <!-- place 1 -->
+    <custom-card style="--card-bg-color: #f9f9f9">
+      <!-- Header slot -->
+      <span slot="header">Poem</span>
+
+      <!-- Image slot -->
+      <img slot="image" src="pic.jpeg" alt="Sample Image" />
+
+      <!-- Content slot -->
+      <span slot="content"
+        >"If my heart could speak, <br>
+         it would say to you,<br>
+        I will not let you go, I will hold you <br>
+        in my arms forever"
+.</span
+      >
+      <span slot="footer">Learn More</span>
+    </custom-card>
+
+    <!-- This is for  place 2 -->
+    <custom-card style="--card-bg-color: #f9f9f9">
+      <!--This is for  Header-->
+      <span slot="header">Poem</span>
+
+      <!--This is for  Image  -->
+      <img slot="image" src="pic.jpeg" alt="Sample Image" />
+
+      <!-- Content  -->
+      <span slot="content"
+        >"If my heart could speak, <br>
+         it would say to you,<br>
+        I will not let you go, I will hold you <br>
+        in my arms forever".</span
+      >
+      <!-- This is for footer -->
+      <span slot="footer">Learn More</span>
+    </custom-card>
+
+    <script src="component.js"></script>
+  </body>
+</html>
