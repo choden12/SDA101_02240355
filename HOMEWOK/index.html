@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Button </title>
+</head>
+<body>
+
+<toggle-button></toggle-button>
+
+<script>
+  class ToggleButton extends HTMLElement {
+    constructor() {
+      super();
+      this.attachShadow({ mode: 'open' });
+
+      
+      //Create the button element
+      this.button = document.createElement('button');
+      this.button.textContent = 'OFF';
+      this.button.style.padding = '100px 700px';
+    
+      // this is to Update button based on the state
+      this.updateButton();
+
+      // Add event listener for click
+      this.button.addEventListener('click', this.toggle.bind(this));
+
+      // Append the button to the shadow DOM
+      this.shadowRoot.append(this.button);
+    }
+
+    toggle() {
+      this.isOn = !this.isOn;
+      this.updateButton();
+
+      // Dispatch the custom event
+      this.dispatchEvent(new CustomEvent('toggle-changed', {
+        detail: { state: this.isOn }
+      }));
+
+      // This is to Save the state to localStorage
+      localStorage.setItem('toggle-state', this.isOn);
+    }
+
+    updateButton() {
+      if (this.isOn) {
+        this.button.textContent = 'ON';
+        this.button.style.backgroundColor = 'green';
+        this.button.style.color = 'white';
+      } else {
+        this.button.textContent = 'OFF';
+        this.button.style.backgroundColor = 'red';
+        this.button.style.color = 'white';
+      }
+    }
+  }
+
+  // its define the custom element
+  customElements.define('toggle-button', ToggleButton);
+</script>
+
+</body>
+</html>

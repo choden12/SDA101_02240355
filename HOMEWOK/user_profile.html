@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom User Profile Element</title>
+</head>
+<body>
+
+  <!-- Using the custom user-profile element -->
+  
+  <user-profile name="Sangay Choden" role="Software Engineer"></user-profile>
+  
+  <script>
+    // Define the UserProfile class
+    class UserProfile extends HTMLElement {
+      constructor() {
+        super();
+        
+
+        // Attach a shadow DOM
+        this.attachShadow({ mode: 'open' });
+
+        // Create a container div
+        const container = document.createElement('div');
+        container.className = 'card';
+
+        // Set the inner HTML with user details
+        container.innerHTML = `
+          <p><strong>Name:</strong> ${this.getAttribute('name')}</p>
+          <p><strong>Role:</strong> ${this.getAttribute('role')}</p>
+        `;
+
+        // Add some styling
+        const style = document.createElement('style');
+        style.textContent = `
+          .card {
+            border: 1px solid #ccc;
+            padding: 250px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 200px;
+          }
+          p {
+            margin: 8px 0;
+          }
+        `;
+
+        this.shadowRoot.append(style, container);
+      }
+    }
+
+    // Define the custom element
+    customElements.define('user-profile', UserProfile);
+    
+  </script>
+
+</body>
+</html>
