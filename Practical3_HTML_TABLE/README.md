@@ -12,20 +12,23 @@ This project demonstrates an HTML table layout for displaying semester assignmen
 5. [Acknowledgments](#acknowledgments)
 
 ## Installation
-1. 
+1.
 
 ## Usage
 To view the table, open the `table1.html` file in a web browser. The table is formatted to display the semester grades for various modules.
 
 
 ## Features
-
+1. Table rows (<tr>)
+2. Use <header> and <main> tags to improve document semantic
+3. Use border: Adds a 1-pixel black border around the table, headers, and data cells.
 
 ## Technologies 
-
+1. html
+2. css
 
 ## Acknowledgment
-
+First and formost i would like thank ours tutor for giving such an opportunity to make this type of pratical , its really help me to understand how to create such things using many features. Secondly i would like to thanks my mates for helping me to make this pratical succesfull.
 
 
 
