@@ -12,7 +12,18 @@ This project demonstrates an HTML table layout for displaying semester assignmen
 5. [Acknowledgments](#acknowledgments)
 
 ## Installation
-1.
+1.To run this project locally, execute the following from your terminal:
+
+1. **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    ```
+2. **Switch to the project directory**:
+```bash
+    cd <project-directory>
+    ```
+3. **Open the `index.html` file** 
+ ```
 
 ## Usage
 To view the table, open the `table1.html` file in a web browser. The table is formatted to display the semester grades for various modules.
