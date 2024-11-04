@@ -1,4 +1,4 @@
-## Reflective Report on College Event Project
+## Reflective Report on College Event 
 
 ## Overview of Project
 The College Events project involved the organization of events that were to be done and where students would be more interactive and have something to refer to in our institution. I had to come up with an information webpage summarizing the events, including their venues, times, and descriptions. This project wasn't just web development itself but also engaging with my peers on what kind of events would fit into their interests.
