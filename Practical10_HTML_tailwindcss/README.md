@@ -11,7 +11,7 @@ Welcome to my responsive webpage, created using HTML, TailwindCSS, and custom CS
 
 ## Installation
 
-If you want to view and experiment with this project locally, simply clone this repository and open `index.html` in your browser.
+If you want to view and experiment with this project locally, simply clone this repository and open `index.html` in the browser.
 
 ```bash
 git clone <repository-url>
