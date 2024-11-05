@@ -1,6 +1,6 @@
 # College Event 
 
-# overview
+# # Project overview
 This is the repository of a web page for programs in a college along with their details. The coding languages used are HTML and CSS.
 
 ## Table of Contents

@@ -1,6 +1,6 @@
 College Seminar Registration
 
-# Overview
+# # Project overview
 
 This is a simple HTML form intended for college seminar registration. The form will capture the essential information from the participants to help enroll them for the seminar efficiently.
 
