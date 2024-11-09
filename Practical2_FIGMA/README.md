@@ -1,4 +1,6 @@
 # Food Delivery
+
+## Figma link
 https://www.figma.com/design/qnaqgVKwkY8HN1qqnyBqtn/Untitled?node-id=0-1&m=dev&t=zkP7lM3kZAWlUfl5-1
 
 # Project overview
@@ -14,7 +16,9 @@ The primary goal of this project is to facilitate food delivery, with a focus on
 5. [Acknowledgments](#acknowledgments)
 
 ## Installation
-1. 
+To run this project,
+* Download the .fig file from Figma if it’s available
+* Go to Figma.com and login
 
 ## Usage
 To access Figma, the user must go to https://figma.com and log in with their account credentials. After logging in, they should open the designated design file from the dashboard. Once the file is open, the user can run the input or interact with the design to generate the desired output or preview.

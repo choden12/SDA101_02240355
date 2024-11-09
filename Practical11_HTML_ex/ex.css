@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+.error {
+    color: rgb(0, 128, 255);
+    font-size: 0.8em;
+}
+button:disabled {
+    background-color: rgb(161, 95, 95)}

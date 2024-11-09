@@ -1,4 +1,6 @@
 # Pesronal Profile
+
+## Figma link
 https://www.figma.com/design/tJXTWuMYkGAJLMn7XlASaL/personal-profile?node-id=0-1&m=dev&t=PR0Zr3M2WE1HxQkb-1
 
 # Project overview
@@ -13,7 +15,9 @@ The main objective of this project is to create a personal profile. It includes 
 5. [Acknowledgments](#acknowledgments)
 
 ## Installation
-1. 
+ To run this project,
+* Download the .fig file from Figma if it’s available
+* Go to Figma.com and login
 
 ## Usage
 To access Figma, the user must go to https://figma.com and log in with their account credentials. After logging in, they should open the designated design file from the dashboard. Once the file is open, the user can run the input or interact with the design to generate the desired output or preview.
